@@ -1,0 +1,12 @@
+.flex-container {
+    display: flex;
+    background-color: white
+}
+
+.flex-container>div {
+    font-size: 21px;
+    flex-direction: column;
+}
+#navbar{
+    flex-direction: column;
+}
