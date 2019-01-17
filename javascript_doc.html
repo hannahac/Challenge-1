@@ -5,27 +5,9 @@
     <title>javascript_doc.html </title>
     <link rel="stylesheet" type="text/css" href="./mystyle.css">
 </head>
-<style>
-    .flex-container {
-        display: flex;
-        background-color: white
-    }
-
-    .flex-container>div {
-        font-size: 21px;
-        flex-direction: column
-    }
-</style>
 
 <body>
-    <div
-        class="flex-container">
-        <div>Introduction</div>
-        <div>What you should already know</div>
-        <div>Javascript and Java</div>
-        <div>Hello World</div>
-        <div>Variables</div>
-    </div>
+    <div class="flex-container1">
     <nav id="navbar">
         <h2>JS Documentation</h2>
         <ul>
@@ -44,9 +26,11 @@
                     <li>Variables</li>
                 </a></button>
         </ul>
-
+    <div>    
     </nav>
+    <div class="flex-container2">
     <main id="main-doc">
+        <div>
         <section class="main-section" id="Introduction">
             <h3><b>Introduction</b></h3>
             <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight
@@ -99,7 +83,7 @@
                 protected, and you do not have to implement interfaces. Variables, parameters, and function return
                 types are not explicitly typed.</p>
         </section>
-        <section class="main-section" id="Hello_World">><h3<b>Hello World</b></h3>
+        <section class="main-section" id="Hello_World"><h3><b>Hello World</b></h3>
                 <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world"
                     JavaScript code:</p>
                 <code>function greetMe(yourName) {
@@ -119,6 +103,7 @@
                 escape sequences as characters in identifiers. Some examples of legal names are Number_hits, temp99,
                 and _name.</p>
         </section>
+        </div>
     </main>
 </body>
 
