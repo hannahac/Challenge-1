@@ -1,12 +1,25 @@
-.flex-container {
+.flex-container1 {
     display: flex;
-    background-color: white
+    background-color: white;
+    flex-direction: row;
+    border: right;
+    border-color:black
+    
+}
+.flex-container2 {
+    display: flex;
+    background-color: white;
+    flex-direction: row
+
+}
+#main-section{
+    position: right;
+    padding: 3ch
+}
+.nav-link{
+    display: flex;
+    flex-direction: column;
+    width: 6cm;
+    height: 2cm
 }
 
-.flex-container>div {
-    font-size: 21px;
-    flex-direction: column;
-}
-#navbar{
-    flex-direction: column;
-}
